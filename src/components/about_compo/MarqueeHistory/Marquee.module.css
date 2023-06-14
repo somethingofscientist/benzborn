@@ -1,0 +1,60 @@
+.product_container {
+    /* background-color: #0081C9; */
+    /* height: 80vh; */
+}
+
+.products_tag {
+    /* border: 1px solid grey; */
+    font-size: 200px;
+    font-weight: 400;
+    word-spacing: 90px;
+    /* line-height: 104px; */
+    font-family: 'DM Serif Display';
+    color: rgba(35, 35, 35, 0.24);
+
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+
+    text-align: center;
+
+    color: rgba(202, 202, 202, 0.24);
+}
+.award_img {
+    height: 450px;
+    width: 100%;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    /* background-color: red; */
+    padding-left: 50px;
+    /* padding: 20px; */
+}
+
+.award_img img {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+/*  */
+.award_img::-webkit-scrollbar {
+    display: none;
+}
+.product_timeline{
+    width: 5%;
+    /* background-color: pink; */
+}
+.product_timeline img{
+    width: 100%;
+}
+.product_image_container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
