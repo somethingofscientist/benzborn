@@ -63,6 +63,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 34px;
+    /* margin-bottom: 20px; */
     /* or 189% */
 
 
@@ -92,4 +93,19 @@
     /* line-height: 14px; */
     letter-spacing: 0.17em;
     color: #F5FAFF;
+}
+
+@media only screen and (max-width:990px) {
+    .auto_img_container {
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: red !important; */
+    }
+    .auto_pack{
+        display: none;
+    }
+    .auto_img,
+    .auto_img_text {
+        width: 100%;
+    }
 }

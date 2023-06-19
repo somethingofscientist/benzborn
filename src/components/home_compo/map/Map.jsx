@@ -24,9 +24,7 @@ const Map = () => {
       <div className={styles.map_flexbox}>
         <div className={styles.map_heading}>What people love about us.</div>
         <div className={styles.map_sub_heading}>
-          Our customers love us for our comprehensive packaging solutions that
-          cater to a wide range of industries and our commitment to
-          environmentally conscious practices.
+          Our customers appreciate our dedication to sustainability and value our eco-conscious approach. By choosing BENZ Packaging, you join us in making a positive impact on the environment.
         </div>
       </div>
 

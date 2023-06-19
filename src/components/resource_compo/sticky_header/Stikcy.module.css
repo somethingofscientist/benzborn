@@ -1,4 +1,4 @@
-.sticky_container{
+.sticky_container {
     display: flex;
     justify-content: flex-start;
     width: 100%;
@@ -11,6 +11,11 @@
     top: 0;
     background-color: white;
 }
+::-webkit-scrollbar {
+    width: 0px; /* Width of the scrollbar */
+    height:0px;
+  }
+
 .sticky_header {
     z-index: 99;
     width: 80%;
@@ -25,6 +30,8 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    /* background-color: red; */
+    overflow-x: auto;
 }
 
 .sticky_header a {
@@ -49,3 +56,29 @@
 
     color: #FFFFFF;
 }
+
+@media (max-width:1160px) {
+    .sticky_header {
+        z-index: 99;
+        width: 100%;
+        /* background-color: red; */
+        padding: 2px;
+    }
+}
+
+@media (max-width:920px) {
+    .sticky_header {
+        z-index: 99;
+        width: 100%;
+        /* background-color: red; */
+        padding: 2px;
+    }
+
+    .sticky_link {
+        width: max-content;
+        margin-right: 10px;
+        /* font-size: 12px; */
+        /* padding: 10px; */
+    }
+}
+

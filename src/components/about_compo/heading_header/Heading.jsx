@@ -6,6 +6,7 @@ const Heading = () => {
         <>
             <div className={styles.header_bg}>
                 <img src={header_heading} alt="" />
+                <div className={styles.imageContainer}></div>
                 <div className={styles.header}>
                     Who we are
                 </div>

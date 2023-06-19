@@ -63,7 +63,7 @@ const Routing = () => {
             }
 
 
-            <div className={styles.download_b}>
+            {/* <div className={styles.download_b}>
                 <div className={styles.download}>
                     Order a free consultation - our experts will select the most effective solution
                 </div>
@@ -85,7 +85,7 @@ const Routing = () => {
                 <div className={styles.submit_button}>
                     Submit
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

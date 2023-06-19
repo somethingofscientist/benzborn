@@ -7,6 +7,9 @@ const News = () => {
     return (
         <div className={styles.news}>
             <div className={styles.news_flexbox}>
+                <div className={styles.news_mobile_heading}>
+                    News & Blogs
+                </div>
                 <div className={styles.news_heading}>
                     <p className={styles.news_heading_two}>
                         News & Blogs

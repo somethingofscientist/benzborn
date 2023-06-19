@@ -6,11 +6,6 @@ import engine from '../../images/engine.svg'
 const Descicannt = () => {
     return (
         <>
-            {/* <Routes>
-                <Route path="/dproducts" element={<Homepage />} />
-                <Route path="/dcertifications" element={<Industry />} />
-                <Route path="/dapplications" element={<Product />} />
-            </Routes> */}
             <div className={styles.automobile_container} id='section4'>
                 <div className={styles.auto_heading}>
                     <div className={styles.auto_number}>4</div>

@@ -240,4 +240,7 @@ input {
         text-align: center;
         /* margin-right: 0px; */
     }
+    .blue_container_heading{
+        font-size: 30px;
+    }
 }

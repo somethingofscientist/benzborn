@@ -4,6 +4,7 @@ import top1 from '../../images/top1.svg';
 import bottom1 from '../../images/bottom1.svg';
 
 const Distributor = () => {
+
     return (
         <>
             <div className={styles.d_container} id='section4'>
@@ -26,6 +27,19 @@ const Distributor = () => {
                     </div>
                     <div className={styles.join}>
                         Join Our Team
+                    </div>
+                </div>
+
+
+                <div className={styles.d_mobile_right}>
+                    <div className={styles.top_mobile_img}>
+                        <img src={top1} alt="" />
+                    </div>
+                    <div className={styles.mobile_join}>
+                        Join Our Team
+                    </div>
+                    <div className={styles.bottom_mobile_img}>
+                        <img src={bottom1} alt="" />
                     </div>
                 </div>
             </div>

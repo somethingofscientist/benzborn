@@ -21,7 +21,7 @@ const Contract_packaging = () => {
                         </div>
                     </div>
                     <div className={styles.auto_img_text}>
-                        Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.
+                    Benz Packaging offers reliable and professional contract packaging services. With expertise in primary packaging, secondary packaging, and co-packing, they provide customized solutions to meet the diverse packaging needs of businesses. Through their commitment to quality, precision, and customer satisfaction, Benz Packaging is a trusted partner for companies seeking efficient and effective packaging services.
                     </div>
                 </div>
                 <Slider />

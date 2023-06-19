@@ -7,6 +7,14 @@
 }
 
 .header_heading {}
+.imageContainer {
+    height: 10vh;
+    background-image: url("../../images/header_heading.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(30%);
+    z-index: -1;
+  }
 
 .header {
     width: 80%;
@@ -31,3 +39,43 @@
     text-shadow: 0px 33px 31px rgba(0, 0, 0, 0.42);
 
 }
+
+
+/* ------------------------------> */
+@media (max-width:800px){
+    .header{
+        font-size: 40px;
+        
+    }
+
+    .sub_header{
+        /* display: none; */
+        font-size: 10px;
+        width: 80%;
+    }
+}   
+
+@media (max-width:537px){
+    .header{
+        font-size: 30px;
+        
+    }
+
+    .sub_header{
+        font-size: 7px;
+        width: 80%;
+        /* display: none; */
+    }
+}  
+@media (max-width:400px){
+    .header{
+        font-size: 20px;
+        
+    }
+
+    .sub_header{
+        font-size: 7px;
+        width: 80%;
+        /* display: none; */
+    }
+}  

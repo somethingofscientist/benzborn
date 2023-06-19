@@ -96,3 +96,15 @@
     letter-spacing: 0.17em;
     color: #F5FAFF;
 }
+
+@media (max-width:990px) {
+    .auto_img_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .auto_img,
+    .auto_img_text {
+        width: 100%;
+    }
+}

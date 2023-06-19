@@ -14,9 +14,12 @@ import Descicannt from "./screens/desiccants/Desiccants.jsx";
 import Services from "./screens/services/Services";
 import Resource from "./screens/resource/Resource";
 import News from "./screens/news/News";
+import { useState } from "react";
+import { useEffect } from "react";
 
 
 function App() {
+
   return (
     <>
       {/* <Homepage /> */}

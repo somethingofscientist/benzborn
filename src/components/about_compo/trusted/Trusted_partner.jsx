@@ -9,8 +9,11 @@ const Trusted_partner = () => {
                     Your trusted partner for all your packaging needs.
                 </div>
                 <div className={styles.trusted_para}>
-                    BENZ Packaging has been leading the way in Corrosion Prevention Technology for more than 38 years, with over 4,000 satisfied and regular customers throughout India, Europe, and America. Our name is new, but our history is not. We’ve collaborated with the best Protective Packaging Company – Propagroup S.p.A. to focus on what we do best—partnering with customers in all industry sectors to help them lower costs, increase productivity and get their products delivered Rust-Free.
-                    BENZ Packaging is committed to creating a positive future for Indian manufacturing. Wholly owned and backed by the strength of New Sales Corporation under the guidance of Vivek Chopra, BENZ Packaging is 250 employees strong across India, with Branch Office(s) in Bangalore, Chennai, Delhi, Indore, Jamshedpur, and Pune.
+                    BENZ Packaging, supported by its parent company New Sales Corporation, boasts a rich experience of over 38 years in the packaging industry. Throughout this time, BENZ Packaging has successfully provided reliable and effective corrosion solutions worldwide. Collaborating with our esteemed Technical Partners, Propagroup from Italy, renowned manufacturers of Protective Packaging Products, we offer unparalleled support with on-site representation in over 90 countries. This ensures seamless assistance wherever you require it.
+                    <br/><br/>
+                    We specialize in addressing even the most challenging corrosion prevention requirements, including the safe transportation of goods in corrosive environments and storage in high humidity conditions. For a comprehensive corrosion management solution tailored to your specific needs, we encourage you to reach out to our dedicated BENZ Packaging Technical Representative.
+                    <br/><br/>
+                    Feel free to get in touch and discover how we can assist you.
                 </div>
             </div>
         </>

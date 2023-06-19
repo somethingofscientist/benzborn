@@ -17,3 +17,17 @@
     transition: 200ms;
     z-index: 99;
 }
+
+@media (max-width:920px) {
+    .contact_us_button {
+        bottom: 10%;
+        right: 10%;
+        font-weight: 700;
+        padding: 5px;
+        display: flex;
+        /* font-size: 6px !important;    */
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+    }
+}

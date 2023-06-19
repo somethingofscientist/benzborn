@@ -39,7 +39,7 @@ const Working = () => {
                             {hoveredIndex === index ? (
                                 <div className="image-text">Supporting you from start to finish.</div>
                             ) : (
-                                <h1 className="image-textHeading">Customer Service   </h1>
+                                <h1 className="image-textHeading">Customer Service</h1>
                             )}
                         </div>
                     ))}

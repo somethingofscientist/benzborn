@@ -30,3 +30,9 @@
 
     color: #333333;
 }
+
+@media (max-width:768px) {
+    .fact_heading {
+        font-size: 40px;
+    }
+}

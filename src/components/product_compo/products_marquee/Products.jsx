@@ -6,7 +6,7 @@ import pic2 from "../../images/corrosion.svg";
 import pic3 from "../../images/handling.svg";
 import pic4 from "../../images/traditional.svg";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import RustRemovers from "../Rust_Removers/Aerospace";
+// import RustRemovers from "../Rust_Removers/Aerospace";
 import Rust from "../Rust_Prevention/Aerospace";
 import Accessories from "../Accessories/Aerospace";
 
@@ -27,39 +27,35 @@ const Products = () => {
             onClick={(e) => { setPage('protective') }}
           >
             <div className={styles.card_text}>INDUSTRIAL</div>
-            <div className={styles.card_subtext}>Protective Packaging</div>
+            <div className={styles.card_subtext}>Anti - Humidity </div>
             <img src={pic1} alt="pic1_humidity" />
             <div className={styles.card_icon}>
-              <HiArrowNarrowRight
-                size={20}
-                color="white" />
+              {/* <HiArrowNarrowRight size={20} color="white" /> */}
             </div>
           </div>
           <div className={styles.card_down}
             onClick={(e) => { setPage('industrial') }}>
             <div className={styles.card_text}>INDUSTRIAL</div>
-            <div className={styles.card_subtext}>Industrial Packaging</div>
+            <div className={styles.card_subtext}>Anti - Corrosion </div>
             <img src={pic2} alt="pic1_humidity" />
             <div className={styles.card_icon2}>
-              <HiArrowNarrowRight
-                size={20}
-                color="white" />
+              {/* <HiArrowNarrowRight size={20} color="white" /> */}
             </div>
           </div>
           <div className={styles.card_up}>
             <div className={styles.card_text}>INDUSTRIAL</div>
-            <div className={styles.card_subtext}>Anti - Humidity</div>
+            <div className={styles.card_subtext}>Handling</div>
             <img src={pic3} alt="pic1_humidity" />
             <div className={styles.card_icon}>
-              <HiArrowNarrowRight size={20} color="white" />
+              {/* <HiArrowNarrowRight size={20} color="white" /> */}
             </div>
           </div>
           <div className={styles.card_down}>
             <div className={styles.card_text}>INDUSTRIAL</div>
-            <div className={styles.card_subtext}>Anti - Humidity</div>
+            <div className={styles.card_subtext}>Traditional Packaging</div>
             <img src={pic4} alt="pic1_humidity" />
             <div className={styles.card_icon2}>
-              <HiArrowNarrowRight size={20} color="white" />
+              {/* <HiArrowNarrowRight size={20} color="white" /> */}
             </div>
           </div>
         </div>
@@ -70,7 +66,6 @@ const Products = () => {
         page === "protective" ?
           <>
             <Rust />
-            <RustRemovers />
           </>
           : page === "industrial" ?
             <>

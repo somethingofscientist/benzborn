@@ -41,6 +41,7 @@
 .card_up {
     position: relative;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .card_down {
@@ -59,6 +60,7 @@
     font-weight: 600;
     /* background-color: pink; */
     z-index: 33;
+    /* cursor: pointer; */
 }
 
 .card_subtext {
@@ -79,7 +81,7 @@ img {
 
 .card_icon,
 .card_icon2 {
-    background-color: #0081C9;
+    /* background-color: #0081C9; */
     border-radius: 50%;
     padding: 10px 12px;
     bottom: 20px;
@@ -88,6 +90,7 @@ img {
     position: absolute;
     /* font-size: 40px; */
     transition: 200ms;
+    /* cursor: pointer; */
 }
 
 .card_icon2 {
@@ -108,7 +111,28 @@ img {
 .card_up:hover {
     filter: brightness(0.7)
 }
-
+.para{
+    font-size: 20px;
+    /* height: 50vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-family:  'Urbanist';
+    margin: 130px auto;
+    /* word-spacing: 50px; */
+    /* color: blue; */
+    /* border: 1px solid rgb(236, 236, 236); */
+    border-radius: 10px;
+    width: max-content;
+    /* letter-spacing: 10px; */
+    /* padding: 20px 30px; */
+    text-align: center;
+}
+.para:hover{
+    /* letter-spacing: 2px; */
+    cursor: pointer;
+}
 
 @media only screen and (max-width: 1460px) {
 
@@ -244,24 +268,20 @@ img {
         margin: auto;
     }
 
-    .card_down,
-    .card_up {
-        /* margin: auto; */
+    .card_up ,
+    .card_down{
+        margin: auto;
         position: relative;
-        /* background-color: pink;/ */
         justify-content: center;
         transition: 0.3s;
         width: 50%;
         display: flex;
+        margin-bottom: 20px;
         justify-content: center;
     }
 
+   
     .card_down img {
-        width: 100% !important;
-        /* background-color: pink; */
-    }
-
-    .card_up img {
         /* width: 100%; */
     }
 }

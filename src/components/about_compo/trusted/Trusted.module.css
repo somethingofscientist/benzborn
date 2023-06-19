@@ -26,3 +26,13 @@
 
     color: #000000;
 }
+
+@media (max-width:600px){
+    .trusted_heading {
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+    }
+    
+}

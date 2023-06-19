@@ -4,6 +4,7 @@ import pack from '../../images/packsummit.png'
 import pack2 from '../../images/pack2.png'
 import pack3 from '../../images/pack3.png'
 import pack4 from '../../images/pack4.png'
+import CurvedCarousel from '../carousel/curved_carousel';
 
 
 const Award = () => {
@@ -33,6 +34,7 @@ const Award = () => {
         <>
             <div className={styles.award_container} id='section2'>
                 <div className={styles.award_heading}>Awards</div>
+                <CurvedCarousel />
                 <div className={styles.award_subheading}>About Events</div>
                 <div className={styles.award_para}>
                     BENZ Packaging backed by its parent company – New Sales Corporation has been in the field of packaging for over 38 years. BENZ Packaging has delivered safe and effective corrosion solutions across the globe. Our Technical Partners- Propagroup (Italy) are the leading manufactures of Protective Packaging Products and have onsite representation in over 90-plus countries, to provide seamless support wherever you require it. We can help you get over any challenging corrosion prevention need such as overseas shipping in corrosive environments to storage in high humidity conditions.

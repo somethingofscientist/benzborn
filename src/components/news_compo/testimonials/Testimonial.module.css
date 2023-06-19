@@ -12,7 +12,7 @@
     font-size: 50px;
     letter-spacing: 0.04em;
     color: #0081C9;
-    padding:0 0 60px 0;
+    padding: 0 0 60px 0;
 }
 
 .test_video_container {
@@ -38,4 +38,18 @@
 
 .test_video:hover {
     background-color: rgba(185, 185, 185, 0.541);
+}
+
+
+@media (max-width:900px) {
+    .test_video {
+        background-color: rgb(239, 239, 239);
+        height: 300px;
+        width: 100.00%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
 }

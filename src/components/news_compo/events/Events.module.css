@@ -84,3 +84,16 @@
     line-height: 193%;
     color: #333333;
 }
+
+@media (max-width:1010px){
+    .award_flexbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .award_img ,
+    .award_img img ,
+    .award_text {
+        width: 100%;
+    }
+}

@@ -5,149 +5,84 @@ import { useState } from 'react';
 
 const Slider = () => {
     const [showTape, setShowTape] = useState(true);
+
+    const arr = [
+        {
+            image: tape,
+            items: "TAPE",
+            item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+            date: "8 June 2023"
+        },
+        {
+            image: tape,
+            items: "PORT",
+            item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+            date: "8 June 2023"
+        },
+        {
+            image: tape,
+            items: "TAPE",
+            item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+            date: "8 June 2023"
+        },
+        {
+            image: tape,
+            items: "TAPE",
+            item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+            date: "8 June 2023"
+        },
+        {
+            image: tape,
+            items: "TAPE",
+            item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+            date: "8 June 2023"
+        },
+        {
+            image: tape,
+            items: "TAPE",
+            item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+            date: "8 June 2023"
+        },
+        {
+            image: tape,
+            items: "TAPE",
+            item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+            date: "8 June 2023"
+        },
+        {
+            image: tape,
+            items: "TAPE",
+            item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+            date: "8 June 2023"
+        },
+    ]
+
     return (
         <>
             <div className={styles.slider_heading}>
                 Products
             </div>
             <div className={styles.wrapper}>
-
-                <div className={styles.item}>
-                    <img src={tape} alt="tape" />
-                    {showTape &&
-                        <div className={styles.item_tape}>
-                            TAPE
-                        </div>}
-                    <div className={styles.item_text}
-                        onMouseEnter={() => setShowTape(false)}
-                        onMouseLeave={() => setShowTape(true)}
-                    >
-                        BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.
-                    </div>
-                    <div className={styles.item_date}>
-                        8 June 2023
-                    </div>
-                </div>
-
-                <div className={styles.item}>
-                    <img src={tape} alt="tape" />
-                    {showTape &&
-                        <div className={styles.item_tape}>
-                            TAPE
-                        </div>}
-                    <div className={styles.item_text}
-                        onMouseEnter={() => setShowTape(false)}
-                        onMouseLeave={() => setShowTape(true)}
-                    >
-                        BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.
-                    </div>
-                    <div className={styles.item_date}>
-                        8 June 2023
-                    </div>
-                </div>
-
-                <div className={styles.item}>
-                    <img src={tape} alt="tape" />
-                    {showTape &&
-                        <div className={styles.item_tape}>
-                            TAPE
-                        </div>}
-                    <div className={styles.item_text}
-                        onMouseEnter={() => setShowTape(false)}
-                        onMouseLeave={() => setShowTape(true)}
-                    >
-                        BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.
-                    </div>
-                    <div className={styles.item_date}>
-                        8 June 2023
-                    </div>
-                </div>
-
-                <div className={styles.item}>
-                    <img src={tape} alt="tape" />
-                    {showTape &&
-                        <div className={styles.item_tape}>
-                            TAPE
-                        </div>}
-                    <div className={styles.item_text}
-                        onMouseEnter={() => setShowTape(false)}
-                        onMouseLeave={() => setShowTape(true)}
-                    >
-                        BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.
-                    </div>
-                    <div className={styles.item_date}>
-                        8 June 2023
-                    </div>
-                </div>
-
-                <div className={styles.item}>
-                    <img src={tape} alt="tape" />
-                    {showTape &&
-                        <div className={styles.item_tape}>
-                            TAPE
-                        </div>}
-                    <div className={styles.item_text}
-                        onMouseEnter={() => setShowTape(false)}
-                        onMouseLeave={() => setShowTape(true)}
-                    >
-                        BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.
-                    </div>
-                    <div className={styles.item_date}>
-                        8 June 2023
-                    </div>
-                </div>
-
-                <div className={styles.item}>
-                    <img src={tape} alt="tape" />
-                    {showTape &&
-                        <div className={styles.item_tape}>
-                            TAPE
-                        </div>}
-                    <div className={styles.item_text}
-                        onMouseEnter={() => setShowTape(false)}
-                        onMouseLeave={() => setShowTape(true)}
-                    >
-                        BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.
-                    </div>
-                    <div className={styles.item_date}>
-                        8 June 2023
-                    </div>
-                </div>
-
-                <div className={styles.item}>
-                    <img src={tape} alt="tape" />
-                    {showTape &&
-                        <div className={styles.item_tape}>
-                            TAPE
-                        </div>}
-                    <div className={styles.item_text}
-                        onMouseEnter={() => setShowTape(false)}
-                        onMouseLeave={() => setShowTape(true)}
-                    >
-                        BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.
-                    </div>
-                    <div className={styles.item_date}>
-                        8 June 2023
-                    </div>
-                </div>
-
-                <div className={styles.item}>
-                    <img src={tape} alt="tape" />
-                    {showTape &&
-                        <div className={styles.item_tape}>
-                            TAPE
-                        </div>}
-                    <div className={styles.item_text}
-                        onMouseEnter={() => setShowTape(false)}
-                        onMouseLeave={() => setShowTape(true)}
-                    >
-                        BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.
-                    </div>
-                    <div className={styles.item_date}>
-                        8 June 2023
-                    </div>
-                </div>
-
+                {
+                    arr.map((item) => (
+                        <div className={styles.item}>
+                            <img src={item.image} alt="tape" />
+                            {showTape &&
+                                <div className={styles.item_tape}>
+                                    {item.items}
+                                </div>}
+                            <div className={styles.item_text}
+                                onMouseEnter={() => setShowTape(false)}
+                                onMouseLeave={() => setShowTape(true)}
+                            >
+                                {item.item_text}
+                            </div>
+                            <div className={styles.item_date}>
+                                {item.date}
+                            </div>
+                        </div>
+                    ))
+                }
             </div>
         </>
     )

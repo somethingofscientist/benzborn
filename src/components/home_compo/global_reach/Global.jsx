@@ -12,7 +12,7 @@ const Global = () => {
                     local impact.
                 </div>
                 <div className={styles.map_sub_heading}>
-                    Global reach local impact is about making a difference on a global scale through individual actions at a local level. It's about recognizing the interconnectedness of our world and taking responsibility for our impact, no matter how small it may seem.
+                    This is our guiding principle, representing our commitment to making a positive difference on a global scale through individual actions at the local level. We firmly believe that even the smallest actions can have far-reaching effects, and we strive to be a catalyst for change in our interconnected world.
                 </div>
             </div>
             <div className={styles.global_container}>

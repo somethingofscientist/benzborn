@@ -28,6 +28,18 @@ const Work_with_us = () => {
                         Join Our Team
                     </div>
                 </div>
+
+                <div className={styles.d_mobile_right}>
+                    <div className={styles.top_mobile_img}>
+                        <img src={top1} alt="" />
+                    </div>
+                    <div className={styles.mobile_join}>
+                        Join Our Team
+                    </div>
+                    <div className={styles.bottom_mobile_img}>
+                        <img src={bottom1} alt="" />
+                    </div>
+                </div>
             </div>
         </>
     )

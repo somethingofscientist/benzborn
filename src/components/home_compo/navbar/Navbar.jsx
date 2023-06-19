@@ -255,6 +255,10 @@ const Menu = styled.div`
   &::-webkit-scrollbar {
     display: none;
   }
+
+  @media only screen and (max-width: 572px) {
+    width: 90%;
+  }
 `;
 
 const OtherDetails = styled.div`
